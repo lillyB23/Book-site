@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { TopbannerComponent } from './topbanner/topbanner.component';
 import { FooterComponent } from './footer/footer.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FooterComponent } from './footer/footer.component';
     FooterComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
